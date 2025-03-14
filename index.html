@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambridge Hospital</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Assets/img/logo/logo.jpeg"
+    />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+  </head>
+  <body>
+    <!-- head -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo and Brand Name (Always Visible) -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="Assets/img/logo/logo.jpeg"
+            alt="Logo"
+            class="me-2"
+            height="50"
+          />
+          <h1 class="h5 mb-0">Cambridge Hospital</h1>
+        </a>
+        <!-- Contact Details (Visible Only on Large Screens) -->
+        <div
+          class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0"
+          id="navbarContact"
+        >
+          <div
+            class="d-none d-lg-flex flex-wrap gap-3 justify-content-center justify-content-lg-end"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img1.png" alt="Phone" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Number:</h6>
+                <span class="fw-semibold">03412705043</span>
+              </div>
+            </div>
+    
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img2.png" alt="Email" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Email:</h6>
+                <span class="fw-semibold">sheikhraza035@gmail.com</span>
+              </div>
+            </div>
+    
+            <!-- Address (Hidden in Mobile) -->
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img3.png" alt="Address" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Address:</h6>
+                <span class="fw-semibold">E-328 Kosar Town</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar yahan se -->
+    <nav
+    class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top py-3 border-bottom border-primary border-opacity-25 fs-6 fw-bold"
+    style="--bs-bg-opacity: 0.95; backdrop-filter: blur(5px)"
+  >
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse fs-6" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="About-us.html">About Us</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Departments
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
+              <li><a class="dropdown-item" href="Neurology.html">Neurology</a></li>
+              <li><a class="dropdown-item" href="Orthopedics.html">Orthopedics</a></li>
+              <li><a class="dropdown-item" href="Pediatrics.html">Pediatrics</a></li>
+            </ul>
+          </li>
+  
+          <!-- Dropdown: Facilities -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Facility
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Emergency.html">Emergency</a></li>
+              <li><a class="dropdown-item" href="ICU.html">ICU</a></li>
+              <li><a class="dropdown-item" href="Pharmacy.html">Pharmacy</a></li>
+            </ul>
+          </li>
+  
+          <!-- Services -->
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+  
+          <!-- Dropdown: Centres -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Centres
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Cancer-Centre.html">Cancer Centre</a></li>
+              <li><a class="dropdown-item" href="Diabetes-Centre.html">Diabetes Centre</a></li>
+            </ul>
+          </li>
+  
+          <!-- Academic -->
+          <li class="nav-item">
+            <a class="nav-link" href="Academic.html">Academic</a>
+          </li>
+  
+          <!-- Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+          </li>
+  
+          <!-- Vacancies -->
+          <li class="nav-item">
+            <a class="nav-link" href="Vacancies.html">Vacancies</a>
+          </li>
+  
+          <!-- Dropdown: Query & Feedback -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Query & Feedback
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Submit-Query.html">Submit Query</a></li>
+              <li><a class="dropdown-item" href="#">Give Feedback</a></li>
+            </ul>
+          </li>
+  
+          <!-- Success Stories -->
+          <li class="nav-item">
+            <a class="nav-link" href="Success-Stories.html">Success Stories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <section
+      class="bg-image d-flex align-items-center responsive-ms-hero"
+
+      style="
+        background-image: url('Assets/img/homepage.jpg');
+        height: 100vh;
+        background-size: cover;
+        /* background-position: center; */
+      "
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Side Content -->
+          <div class="col-lg-6 text-white">
+            <h1 class="display-4 fw-bold hero-text" id="hero-text" style="color: #0a3d62">
+              Welcome to Cambridge Hospital
+          </h1>
+            <p class="lead" style="color: black">
+              Cambridge Hospital has been
+              a pioneer in providing world-class healthcare. We specialize in
+              handling critical cases with advanced medical technology and
+              experienced professionals.
+            </p>
+            <p style="color: black">
+              With a strong track record in complex surgeries, emergency
+              treatments, and critical patient care, we are committed to
+              ensuring your health and well-being.
+            </p>
+
+           <!-- From Uiverse.io by ilkhoeri --> 
+<!-- From Uiverse.io by satyamchaudharydev --> 
+<button class="button"><a href="Appointment-now.html" style="text-decoration: none;color: #fff;">Appointment Now</a>
+  <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
+    <path
+      fill-rule="evenodd"
+      d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+      clip-rule="evenodd"
+    ></path>
+  </svg>
+</button>
+
+          </div>
+
+          <!-- Right Side (Empty for Image Background) -->
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid py-5" id="blog">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 order-lg-1 order-2">
+                  <h2 class="display-5 fw-bold text-primary mb-4">Why Choose Us</h2>
+                  <p class="text-muted mb-4">
+                      With a steadfast commitment to your well-being, our team of highly
+                      trained healthcare professionals ensures that you receive nothing
+                      short of exceptional patient experiences.
+                  </p>
+                  <div class="d-flex flex-column gap-4">
+                      <div class="d-flex align-items-center gap-3 p-3 bg-white rounded shadow-sm">
+                          <span><i class="ri-hand-heart-line"></i></span>
+                          <div>
+                              <h4 class="fw-bold text-primary">Intensive Care</h4>
+                              <p class="text-muted mb-0">
+                                  Our Intensive Care Unit is equipped with advanced technology and
+                                  staffed by a team of professionals.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-3 p-3 bg-white rounded shadow-sm">
+                          <span><i class="ri-truck-line"></i></span>
+                          <div>
+                              <h4 class="fw-bold text-primary">Free Ambulance Car</h4>
+                              <p class="text-muted mb-0">
+                                  A compassionate initiative to prioritize your health and
+                                  well-being without any financial burden.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="d-flex align-items-center gap-3 p-3 bg-white rounded shadow-sm">
+                          <span><i class="ri-hospital-line"></i></span>
+                          <div>
+                              <h4 class="fw-bold text-primary">Medical and Surgical</h4>
+                              <p class="text-muted mb-0">
+                                  Our Medical and Surgical services offer advanced healthcare
+                                  solutions to address medical needs.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1 text-center">
+                  <img src="Assets/img/hero-2.jpg" alt="why choose us" class="img-fluid w-75 rounded shadow">
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="main-hy">
+    <!-- Hero Section -->
+    <section class="hero-shero text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-3">Medical Ready To Get This Health Solution</h1>
+            <!-- <p class="lead">Providing expert care, qualified doctors, and top-notch research.</p> -->
+        </div>
+    </section>
+0
+    <!-- Services Section -->
+    <section class="services-blah py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5" style="color: rgb(0,34,97); margin-right: 70px;">What Makes Us Different</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <!-- Service Boxes -->
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center text-">
+                        <img src="Assets/img/home-s/icon 1.png" alt="Expert Care" class="me-3 text-info">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Expert Care</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center">
+                        <img src="Assets/img/home-s/icon 2.png" alt="Emergency Help" class="me-3">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Emergency Help</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center">
+                        <img src="Assets/img/home-s/icon 4.png" alt="Qualified Doctors" class="me-3">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Qualified Doctors</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center">
+                        <img src="Assets/img/home-s/icon 5.png" alt="Medical Advices" class="me-3">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Medical Advices</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center">
+                        <img src="Assets/img/home-s/icon 6.png" alt="Medical Research" class="me-3">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Medical Research</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-tik bg-white p-4 rounded shadow-sm d-flex align-items-center">
+                        <img src="Assets/img/home-s/icon 7.png" alt="Affordable Prices" class="me-3">
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Affordable Prices</h3>
+                            <p class="text-muted mb-0">Medical competitor research startup to financial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section> 
+  <div class="container mt-4">
+      <h2 class="text-secondary text-center">We Are The</h2>
+      <h2 class="fw-bold text-center">Best Our Departments Centers</h2>
+  </div>
+
+  <!-- Icons Section -->
+  <div class="container my-4">
+      <div class="row justify-content-center">
+          <!-- Icons here -->
+      </div>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container">
+      <div class="row">
+          <!-- Text Content -->
+          <div class="col-md-6">
+              <div class="p-4 bg-light rounded shadow">
+                  <h4 class="fw-bold">Speciality Rhinology</h4>
+                  <p class="text-muted" style="text-align: left;">
+                      Our Rhinology department specializes in the diagnosis and treatment of nasal and sinus disorders. 
+                      Our qualified doctors are here to provide you with the best care possible.
+                  </p>
+                  <ul class="list-unstyled" style="text-align: left;">
+                      <li><i class="fas fa-check-circle text-info"></i> Qualified Doctors</li>
+                      <li><i class="fas fa-check-circle text-info"></i> 24×7 Emergency Services</li>
+                      <li><i class="fas fa-check-circle text-info"></i> General Medical</li>
+                      <li><i class="fas fa-check-circle text-info"></i> Feel like Home Services</li>
+                      <li><i class="fas fa-check-circle text-info"></i> Outdoor Checkup</li>
+                      <li><i class="fas fa-check-circle text-info"></i> Easy and Affordable Billing</li>
+                  </ul>
+                  <a href="Appointment-now.html" class="btn btn-info">Appointment Now »</a>
+              </div>
+          </div>
+          <!-- Image Content -->
+          <div class="col-md-6 text-center">
+              <img src="assets/img/picture 1.jpg" class="img-fluid shadow" alt="Rhinology Department" style="height:380px" width="90%"/>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="hassan-1">
+  <div class="container py-5">
+      <div class="section-title">
+          <h3>We Offer Specialized</h3>
+          <h2 class="fw-bold">Orthopedics To Meet Your Needs</h2>
+      </div>
+      
+      <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+              <div class="service-card">
+                 <img src="Assets/img/section-4/1.png" alt="">
+                  <h5 class="fw-bold">Advanced Medical Treatment</h5>
+                  <p>We provide cutting-edge medical treatments for orthopedic, ensuring recovery and care.</p>
+                  <div class="more-content">
+                      <p>Our treatments include minimally invasive surgeries, joint replacements, and personalized rehabilitation programs tailored to your needs.</p>
+                  </div>
+                  <a href="#" class="fw-bold" onclick="toggleContent(event, this)">Read More &raquo;</a>
+              </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3">
+              <div class="service-card">
+                  <img src="Assets/img/section-4/2.png" alt="">
+                  <h5 class="fw-bold">24/7 Emergency Help</h5>
+                  <p>Our orthopedic emergency services are available round the clock to handle critical injuries and trauma.</p>
+                  <div class="more-content">
+                      <p>From fractures to sports injuries, our team is equipped to provide immediate care and stabilization.</p>
+                  </div>
+                  <a href="#" class="fw-bold" onclick="toggleContent(event, this)">Read More &raquo;</a>
+              </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3">
+              <div class="service-card">
+                 <img src="Assets/img/section-4/3.png" alt="">
+                  <h5 class="fw-bold">Expert Medical Professionals</h5>
+                  <p>Our team consists of highly skilled orthopedic surgeons, and support staff.</p>
+                  <div class="more-content">
+                      <p>With years of experience, our professionals are dedicated to delivering the highest standard of care for your musculoskeletal health.</p>
+                  </div>
+                  <a href="#" class="fw-bold" onclick="toggleContent(event, this)">Read More &raquo;</a>
+              </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3">
+              <div class="service-card">
+                <img src="Assets/img/section-4/4.png" alt="">
+                  <h5 class="fw-bold">Qualified Orthopedic Specialists</h5>
+                  <p>Our board-certified are leaders in their field, offering expert diagnosis and treatment.</p>
+                  <div class="more-content">
+                      <p>From spinal disorders to sports medicine, our specialists provide comprehensive care for all orthopedic conditions.</p>
+                  </div>
+                  <a href="#" class="fw-bold" onclick="toggleContent(event, this)">Read More &raquo;</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section id="pricing" class="pricing-area-sha py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="mb-4">
+          <span class="text-primary fw-bold">OUR PRICING</span>
+          <h2 class="fw-bold mt-2">Affordable Pricing Packages</h2>
+          <p class="text-muted">Choose the best plan that suits your healthcare needs. We offer flexible options for everyone.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Silver Plan -->
+      <div class="col">
+        <div class="pricing-box d-flex flex-column justify-content-between h-100 bg-white p-4 rounded shadow text-center border">
+          <h4 class="fw-bold">Basic Care Plan</h4>
+          <h2 class="fw-bold">$25.99</h2>
+          <img src="https://shtheme.org/demosd/mecare/wp-content/uploads/2020/11/pr-icon01.png" alt="pricon" class="img-fluid mx-auto mb-3" style="height: 75px; width: 75px;">
+          <div class="pricing-body">
+            <p class="text-muted">Ideal for individuals seeking essential healthcare services.</p>
+            <ul class="list-unstyled text-start ps-0">
+              <li class="mb-2"><i class="fas fa-stethoscope text-primary me-2"></i>General checkups</li>
+              <li class="mb-2"><i class="fas fa-prescription-bottle text-primary me-2"></i>Basic medications</li>
+              <li class="mb-2"><i class="fas fa-calendar-check text-primary me-2"></i>Annual health screening</li>
+              <li class="mb-2"><i class="fas fa-phone-alt text-primary me-2"></i>Teleconsultation support</li>
+            </ul>
+          </div>
+          <div class="pricing-btn mt-3">
+            <a href="#" class="btn btn-primary text-white fw-bold px-4 py-2">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+      <!-- Premium Plan -->
+      <div class="col">
+        <div class="pricing-box active d-flex flex-column justify-content-between h-100 bg-white p-4 rounded shadow text-center border">
+          <h4 class="fw-bold">Comprehensive Care Plan</h4>
+          <h2 class="fw-bold">$75.99</h2>
+          <img src="https://shtheme.org/demosd/mecare/wp-content/uploads/2020/11/pr-icon03.png" alt="pricon" class="img-fluid mx-auto mb-3" style="height: 75px; width: 75px;">
+          <div class="pricing-body">
+            <p class="text-muted">Perfect for families and individuals needing advanced care.</p>
+            <ul class="list-unstyled text-start ps-0">
+              <li class="mb-2"><i class="fas fa-heartbeat text-primary me-2"></i>Advanced diagnostics</li>
+              <li class="mb-2"><i class="fas fa-procedures text-primary me-2"></i>Inpatient care</li>
+              <li class="mb-2"><i class="fas fa-ambulance text-primary me-2"></i>Emergency services</li>
+              <li class="mb-2"><i class="fas fa-user-md text-primary me-2"></i>Specialist consultations</li>
+            </ul>
+          </div>
+          <div class="pricing-btn mt-3">
+            <a href="#" class="btn btn-primary text-white fw-bold px-4 py-2">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+      <!-- Gold Plan -->
+      <div class="col">
+        <div class="pricing-box d-flex flex-column justify-content-between h-100 bg-white p-4 rounded shadow text-center border">
+          <h4 class="fw-bold">Premium Care Plan</h4>
+          <h2 class="fw-bold">$45.99</h2>
+          <img src="https://shtheme.org/demosd/mecare/wp-content/uploads/2020/11/pr-icon02.png" alt="pricon" class="img-fluid mx-auto mb-3" style="height: 75px; width: 75px;">
+          <div class="pricing-body">
+            <p class="text-muted">For those who want the best in healthcare with added benefits.</p>
+            <ul class="list-unstyled text-start ps-0">
+              <li class="mb-2"><i class="fas fa-x-ray text-primary me-2"></i>Advanced imaging</li>
+              <li class="mb-2"><i class="fas fa-pills text-primary me-2"></i>Specialized medications</li>
+              <li class="mb-2"><i class="fas fa-hospital text-primary me-2"></i>Private room facilities</li>
+              <li class="mb-2"><i class="fas fa-clock text-primary me-2"></i>24/7 priority support</li>
+            </ul>
+          </div>
+          <div class="pricing-btn mt-3">
+            <a href="#" class="btn btn-primary text-white fw-bold px-4 py-2">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="newsletter-section py-5 bg-light">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-8 text-center">
+                  <div class="newsletter-content">
+                      <h2 class="fw-bold mb-3">Subscribe to Our Newsletter</h2>
+                      <p class="text-muted mb-4">Stay updated with our latest medical services, health tips, and hospital news.</p>
+  
+                      <form class="newsletter-form">
+                          <div class="row justify-content-center">
+                              <div class="col-12 col-md-8">
+                                  <div class="input-group mb-3">
+                                      <input
+                                          type="email"
+                                          class="form-control"
+                                          placeholder="Enter your email address"
+                                          required
+                                          style="font-size: 14px;"
+                                      >
+                                      <button class="btn btn-primary px-4" type="submit">
+                                          Subscribe
+                                          <i class="fas fa-paper-plane ms-2"></i>
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </form>
+  
+                      <div class="newsletter-features mt-4">
+                          <div class="row g-4">
+                              <div class="col-12 col-sm-6 col-md-4">
+                                  <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                      <h6 class="mb-2">Weekly Updates</h6>
+                                      <p class="small text-muted mb-0">Get the latest health news and updates</p>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4">
+                                  <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                      <h6 class="mb-2">Health Tips</h6>
+                                      <p class="small text-muted mb-0">Expert medical advice and wellness tips</p>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-md-4">
+                                  <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                      <h6 class="mb-2">Event Updates</h6>
+                                      <p class="small text-muted mb-0">Stay informed about hospital events</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <footer>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <p>E-328 kosar town</p>
+        <p>+92 3412705043</p>
+        <p>sheikhraza0035@Gmail.com</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/raza_ali2008/"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/Razaali-prog"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Our Doctors</h3>
+        <ul>
+          <li><a href="Dr.Nick Sims.html"><i class="fas fa-user-md"></i>Dr.Nick Sims</a></li>
+          <li><a href="Dr.Michael Linden.html"><i class="fas fa-user-md"></i>Dr.Michael Linden</a></li>
+          <li><a href="Dr.Max Turner.html"><i class="fas fa-user-md"></i>Dr.Max Turner</a></li>
+          <li><a href="Dr.Amy Adams.html"><i class="fas fa-user-md"></i>Dr.Amy Adams</a></li>
+          <li><a href="Dr.Julia Jameson.html"><i class="fas fa-user-md"></i>Dr.Julia Jameson</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="Outpatient-Surgery.html"><i class="fas fa-stethoscope"></i>Outpatient Surgery</a></li>
+          <li><a href="Cardiac-Clinic.html"><i class="fas fa-heartbeat"></i>Cardiac Clinic</a></li>
+          <li><a href="Ophthalmology-Clinic.html"><i class="fas fa-eye"></i>Ophthalmology Clinic</a></li>
+          <li><a href="Gynaecological-Clinic.html"><i class="fas fa-female"></i>Gynaecological Clinic</a></li>
+          <li><a href="Outpatient-Rehabilitation.html"><i class="fas fa-wheelchair"></i>Outpatient Rehabilitation</a></li>
+        </ul>
+      </div>
+      <div class="footer-section opening-hours">
+        <h3>Opening Hours</h3>
+        <table>
+          <tr><td>Saturday</td><td>8:00 am - 10:00 pm</td></tr>
+          <tr><td>Sunday</td><td>6:00 am - 8:00 pm</td></tr>
+          <tr><td>Monday</td><td>6:00 am - 2:00 pm</td></tr>
+          <tr><td>Tuesday</td><td>7:00 am - 9:00 pm</td></tr>
+          <tr><td>Wednesday</td><td>10:00 am - 12:00 pm</td></tr>
+          <tr><td>Thursday</td><td>2:00 am - 6:00 pm</td></tr>
+        </table>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2025 <a href="#">Campridge Hospital</a>. Designed By <a href="#">Mr.Raza</a></p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function toggleContent(event, element) {
+          event.preventDefault();
+          const moreContent = element.previousElementSibling;
+          if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+              moreContent.style.display = 'block';
+              element.innerHTML = 'Read Less &laquo;';
+          } else {
+              moreContent.style.display = 'none';
+              element.innerHTML = 'Read More &raquo;';
+          }
+      }
+  </script>
+  </body>
+</html>

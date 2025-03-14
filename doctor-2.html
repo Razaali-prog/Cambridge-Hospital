@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambridge Hospital</title>
+
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Assets/img/logo/logo.jpeg"
+    />
+    <link rel="stylesheet" href="Assets/css/style.css" />
+  </head>
+  <body>
+    <!-- head -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- Logo and Brand Name (Always Visible) -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="Assets/img/logo/logo.jpeg"
+            alt="Logo"
+            class="me-2"
+            height="50"
+          />
+          <h1 class="h5 mb-0">Cambridge Hospital</h1>
+        </a>
+        <!-- Contact Details (Visible Only on Large Screens) -->
+        <div
+          class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0"
+          id="navbarContact"
+        >
+          <div
+            class="d-none d-lg-flex flex-wrap gap-3 justify-content-center justify-content-lg-end"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img1.png" alt="Phone" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Number:</h6>
+                <span class="fw-semibold">03412705043</span>
+              </div>
+            </div>
+    
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img2.png" alt="Email" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Email:</h6>
+                <span class="fw-semibold">sheikhraza035@gmail.com</span>
+              </div>
+            </div>
+    
+            <!-- Address (Hidden in Mobile) -->
+            <div class="d-flex align-items-center gap-2">
+              <img src="Assets/img/img/img3.png" alt="Address" height="25" />
+              <div>
+                <h6 class="mb-0 text-muted">Address:</h6>
+                <span class="fw-semibold">E-328 Kosar Town</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar yahan se -->
+    <nav
+    class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top py-3 border-bottom border-primary border-opacity-25 fs-6 fw-bold"
+    style="--bs-bg-opacity: 0.95; backdrop-filter: blur(5px)"
+  >
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse fs-6" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="About-us.html">About Us</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Departments
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
+              <li><a class="dropdown-item" href="Neurology.html">Neurology</a></li>
+              <li><a class="dropdown-item" href="Orthopedics.html">Orthopedics</a></li>
+              <li><a class="dropdown-item" href="Pediatrics.html">Pediatrics</a></li>
+            </ul>
+          </li>
+  
+          <!-- Dropdown: Facilities -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Facility
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Emergency.html">Emergency</a></li>
+              <li><a class="dropdown-item" href="ICU.html">ICU</a></li>
+              <li><a class="dropdown-item" href="Pharmacy.html">Pharmacy</a></li>
+            </ul>
+          </li>
+  
+          <!-- Services -->
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+  
+          <!-- Dropdown: Centres -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Centres
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Cancer-Centre.html">Cancer Centre</a></li>
+              <li><a class="dropdown-item" href="Diabetes-Centre.html">Diabetes Centre</a></li>
+            </ul>
+          </li>
+  
+          <!-- Academic -->
+          <li class="nav-item">
+            <a class="nav-link" href="Academic.html">Academic</a>
+          </li>
+  
+          <!-- Contact Us -->
+          <li class="nav-item">
+            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+          </li>
+  
+          <!-- Vacancies -->
+          <li class="nav-item">
+            <a class="nav-link" href="Vacancies.html">Vacancies</a>
+          </li>
+  
+          <!-- Dropdown: Query & Feedback -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Query & Feedback
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Submit-Query.html">Submit Query</a></li>
+              <li><a class="dropdown-item" href="#">Give Feedback</a></li>
+            </ul>
+          </li>
+  
+          <!-- Success Stories -->
+          <li class="nav-item">
+            <a class="nav-link" href="Success-Stories.html">Success Stories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-wrapper">
+    <div class="page-header-section service-title style-1" 
+    style="background-image: url('Assets/img/Query-Submit/pageheader.jpg');">
+    <div class="page-header-content">
+        <div class="container">
+            <div class="page-header-content-inner">
+                <div class="page-title">
+                    <h2>Doctor Information</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home -</a></li>
+                    <li class="active">Our Doctors</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+ </div>
+  </section>
+  <section class="eproject-container eproject-py-5">
+    <div class="eproject-row eproject-align-items-center">
+        <div class="eproject-col-lg-6">
+            <h1 class="eproject-mb-4 eproject-text-primary">Meet Our Leading Cardiologists</h1>
+            <p class="eproject-lead">
+                Our expert cardiologists are dedicated to providing world-class heart care. With advanced medical knowledge and years of experience, they ensure each patient receives the highest quality treatment.
+            </p>
+            
+            <h3 class="eproject-lead-tk eproject-mt-4">Why Trust Our Cardiology Team?</h3>
+            <p class="eproject-p">
+                Our specialists are at the forefront of cardiovascular medicine, offering innovative treatments and compassionate care to help patients lead healthier lives.
+            </p>
+            
+            <h3 class="eproject-lead-pk eproject-mt-4">Our Top Cardiologists</h3>
+            <ul class="eproject-list-group eproject-list-group-flush">
+                <li class="eproject-list-group-item"><strong>Dr. Edwin Spindrift</strong> – Renowned Senior Cardiologist</li>
+                <li class="eproject-list-group-item">Over two decades of experience in interventional cardiology</li>
+                <li class="eproject-list-group-item">Specialist in heart failure management and preventive care</li>
+                <li class="eproject-list-group-item">Awarded for excellence in cardiac surgery and research</li>
+                <li class="eproject-list-group-item">Dedicated to using the latest medical advancements for patient recovery</li>
+            </ul>
+        </div>
+        
+        <div class="eproject-col-lg-6 eproject-order-lg-2 eproject-order-1 eproject-text-center eproject-why-image">
+            <img src="assets/img/Department/card2.png" alt="Top Cardiologists" class="eproject-img-fluid eproject-w-75 eproject-rounded eproject-shadow">
+        </div>
+    </div>
+  </section>
+<section class="newsletter-section py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8 text-center">
+                <div class="newsletter-content">
+                    <h2 class="fw-bold mb-3">Subscribe to Our Newsletter</h2>
+                    <p class="text-muted mb-4">Stay updated with our latest medical services, health tips, and hospital news.</p>
+
+                    <form class="newsletter-form">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-8">
+                                <div class="input-group mb-3">
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        placeholder="Enter your email address"
+                                        required
+                                        style="font-size: 14px;"
+                                    >
+                                    <button class="btn btn-primary px-4" type="submit">
+                                        Subscribe
+                                        <i class="fas fa-paper-plane ms-2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="newsletter-features mt-4">
+                        <div class="row g-4">
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                    <h6 class="mb-2">Weekly Updates</h6>
+                                    <p class="small text-muted mb-0">Get the latest health news and updates</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                    <h6 class="mb-2">Health Tips</h6>
+                                    <p class="small text-muted mb-0">Expert medical advice and wellness tips</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <div class="feature-item p-3 h-100 bg-white rounded shadow-sm">
+                                    <h6 class="mb-2">Event Updates</h6>
+                                    <p class="small text-muted mb-0">Stay informed about hospital events</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <footer>
+    <div class="footer-section">
+      <h3>Contact Info</h3>
+      <p>E-328 kosar town</p>
+      <p>+92 3412705043</p>
+      <p>sheikhraza0035@Gmail.com</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/raza_ali2008/"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://github.com/Razaali-prog"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h3>Our Doctors</h3>
+      <ul>
+        <li><a href="Dr.Nick Sims.html"><i class="fas fa-user-md"></i>Dr.Nick Sims</a></li>
+        <li><a href="Dr.Michael Linden.html"><i class="fas fa-user-md"></i>Dr.Michael Linden</a></li>
+        <li><a href="Dr.Max Turner.html"><i class="fas fa-user-md"></i>Dr.Max Turner</a></li>
+        <li><a href="Dr.Amy Adams.html"><i class="fas fa-user-md"></i>Dr.Amy Adams</a></li>
+        <li><a href="Dr.Julia Jameson.html"><i class="fas fa-user-md"></i>Dr.Julia Jameson</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Our Services</h3>
+      <ul>
+        <li><a href="Outpatient-Surgery.html"><i class="fas fa-stethoscope"></i>Outpatient Surgery</a></li>
+        <li><a href="Cardiac-Clinic.html"><i class="fas fa-heartbeat"></i>Cardiac Clinic</a></li>
+        <li><a href="Ophthalmology-Clinic.html"><i class="fas fa-eye"></i>Ophthalmology Clinic</a></li>
+        <li><a href="Gynaecological-Clinic.html"><i class="fas fa-female"></i>Gynaecological Clinic</a></li>
+        <li><a href="Outpatient-Rehabilitation.html"><i class="fas fa-wheelchair"></i>Outpatient Rehabilitation</a></li>
+      </ul>
+    </div>
+    <div class="footer-section opening-hours">
+      <h3>Opening Hours</h3>
+      <table>
+        <tr><td>Saturday</td><td>8:00 am - 10:00 pm</td></tr>
+        <tr><td>Sunday</td><td>6:00 am - 8:00 pm</td></tr>
+        <tr><td>Monday</td><td>6:00 am - 2:00 pm</td></tr>
+        <tr><td>Tuesday</td><td>7:00 am - 9:00 pm</td></tr>
+        <tr><td>Wednesday</td><td>10:00 am - 12:00 pm</td></tr>
+        <tr><td>Thursday</td><td>2:00 am - 6:00 pm</td></tr>
+      </table>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2025 <a href="#">Campridge Hospital</a>. Designed By <a href="#">Mr.Raza</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

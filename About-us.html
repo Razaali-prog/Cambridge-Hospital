@@ -16,6 +16,56 @@
 </head>
   <body>
       <!-- head -->
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+          <!-- Logo and Brand Name (Always Visible) -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="Assets/img/logo/logo.jpeg"
+              alt="Logo"
+              class="me-2"
+              height="50"
+            />
+            <h1 class="h5 mb-0">Cambridge Hospital</h1>
+          </a>
+          <!-- Contact Details (Visible Only on Large Screens) -->
+          <div
+            class="collapse navbar-collapse justify-content-end mt-3 mt-lg-0"
+            id="navbarContact"
+          >
+            <div
+              class="d-none d-lg-flex flex-wrap gap-3 justify-content-center justify-content-lg-end"
+            >
+              <div class="d-flex align-items-center gap-2">
+                <img src="Assets/img/img/img1.png" alt="Phone" height="25" />
+                <div>
+                  <h6 class="mb-0 text-muted">Number:</h6>
+                  <span class="fw-semibold">03412705043</span>
+                </div>
+              </div>
+      
+              <div class="d-flex align-items-center gap-2">
+                <img src="Assets/img/img/img2.png" alt="Email" height="25" />
+                <div>
+                  <h6 class="mb-0 text-muted">Email:</h6>
+                  <span class="fw-semibold">sheikhraza035@gmail.com</span>
+                </div>
+              </div>
+      
+              <!-- Address (Hidden in Mobile) -->
+              <div class="d-flex align-items-center gap-2">
+                <img src="Assets/img/img/img3.png" alt="Address" height="25" />
+                <div>
+                  <h6 class="mb-0 text-muted">Address:</h6>
+                  <span class="fw-semibold">E-328 Kosar Town</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+      <!-- nav bar yahan se -->
       <nav
       class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top py-3 border-bottom border-primary border-opacity-25 fs-6 fw-bold"
       style="--bs-bg-opacity: 0.95; backdrop-filter: blur(5px)"
@@ -115,134 +165,6 @@
             <!-- Vacancies -->
             <li class="nav-item">
               <a class="nav-link" href="Vacancies.html">Vacancies</a>
-            </li>
-    
-            <!-- Dropdown: Query & Feedback -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Query & Feedback
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="Submit-Query.html">Submit Query</a></li>
-                <li><a class="dropdown-item" href="#">Give Feedback</a></li>
-              </ul>
-            </li>
-    
-            <!-- Success Stories -->
-            <li class="nav-item">
-              <a class="nav-link" href="Success-Stories.html">Success Stories</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  
-      <!-- nav bar yahan se -->
-      <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top py-3 border-bottom border-primary border-opacity-25 fs-6 fw-bold"
-      style="--bs-bg-opacity: 0.95; backdrop-filter: blur(5px)"
-    >
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <!-- Navbar Links -->
-        <div class="collapse navbar-collapse fs-6" id="navbarNav">
-          <ul class="navbar-nav ms-auto gap-lg-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-    
-            <li class="nav-item">
-              <a class="nav-link active" href="About-us.html">About Us</a>
-            </li>
-    
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Departments
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
-                <li><a class="dropdown-item" href="Neurology.html">Neurology</a></li>
-                <li><a class="dropdown-item" href="Orthopedics.html">Orthopedics</a></li>
-                <li><a class="dropdown-item" href="Pediatrics.html">Pediatrics</a></li>
-              </ul>
-            </li>
-    
-            <!-- Dropdown: Facilities -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Facility
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="Emergency.html">Emergency</a></li>
-                <li><a class="dropdown-item" href="ICU.html">ICU</a></li>
-                <li><a class="dropdown-item" href="Pharmacy.html">Pharmacy</a></li>
-              </ul>
-            </li>
-    
-            <!-- Services -->
-            <li class="nav-item">
-              <a class="nav-link" href="Services.html">Services</a>
-            </li>
-    
-            <!-- Dropdown: Centres -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Centres
-              </a>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="Cancer-Centre.html">Cancer Centre</a></li>
-                <li><a class="dropdown-item" href="Diabetes-Centre.html">Diabetes Centre</a></li>
-              </ul>
-            </li>
-    
-            <!-- Academic -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Academic</a>
-            </li>
-    
-            <!-- Contact Us -->
-            <li class="nav-item">
-              <a class="nav-link" href="Contact-Us.html">Contact Us</a>
-            </li>
-    
-            <!-- Vacancies -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Vacancies</a>
             </li>
     
             <!-- Dropdown: Query & Feedback -->
